@@ -9,6 +9,6 @@
   "figure_map": "figure_source_map.json",
   "archive_note": "The archive is validated against the manifest payload; this receipt is included without self-hashing to avoid a circular archive hash.",
   "archive_path": "AppliedEnergy_v6_2_release_20261010.zip",
-  "archive_bytes": 6253055,
+  "archive_bytes": 6253125,
   "archive_entry_count": 136
 }

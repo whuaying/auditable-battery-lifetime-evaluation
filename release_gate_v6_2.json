@@ -33,7 +33,11 @@
         "data/mit_grid_confirmation_summary.csv",
         "manuscript/generated_results_v6_2.tex",
         "figures_v6_2/fig_v6_2_b0_repair.pdf",
-        "figures_v6_2/fig_v6_2_mit_grid.pdf"
+        "figures_v6_2/fig_v6_2_mit_grid.pdf",
+        "highlights/AE_Highlights_v6_2.txt",
+        "highlights/AE_Highlights_v6_2.docx",
+        "figures_v6_2/graphical_abstract_v6_2.png",
+        "qa/applied_energy_live_guide_check_20261011.md"
       ],
       "risks": "Figure 1 geometry was repaired and passes the strict rendered collision audit; aggregate inputs and source-map hashes remain recorded.",
       "action": "None for the released figures; retain the repaired asset and its geometry-repair script."
@@ -45,7 +49,8 @@
         "manuscript/AE论文_Supplementary_v6_2.pdf",
         "qa/pdf_consistency.json",
         "qa/page_render_receipt.json",
-        "qa/figure_audits/figure_audit_summary.json"
+        "qa/figure_audits/figure_audit_summary.json",
+        "qa/applied_energy_live_guide_check_20261011.md"
       ],
       "risks": "Main manuscript is 32 pages and the supplement is 19 pages after v6.2 citation and wording updates; rendered-page review found no clipping or blank-page anomalies.",
       "action": "None for the current compiled PDFs; repeat the receipt after any further manuscript edit."
