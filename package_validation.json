@@ -2,13 +2,13 @@
   "status": "PASS",
   "validation_version": "v6.2-package-validation-20261011",
   "manifest_path": "release_manifest_v6_2.json",
-  "manifest_sha256": "9f0c1b207623e3ea8389364e21bdbb24316f21338b76cfc8db6f3eaaf870ce2b",
-  "manifest_entry_count": 132,
+  "manifest_sha256": "0b862e250df79d824c03db4bfe7ac59a93ee1dca5e9bd3bad8c37717c184f057",
+  "manifest_entry_count": 133,
   "pdf_consistency": "qa/pdf_consistency.json",
   "render_receipt": "qa/page_render_receipt.json",
   "figure_map": "figure_source_map.json",
   "archive_note": "The archive is validated against the manifest payload; this receipt is included without self-hashing to avoid a circular archive hash.",
   "archive_path": "AppliedEnergy_v6_2_release_20261010.zip",
-  "archive_bytes": 6252094,
-  "archive_entry_count": 135
+  "archive_bytes": 6253055,
+  "archive_entry_count": 136
 }

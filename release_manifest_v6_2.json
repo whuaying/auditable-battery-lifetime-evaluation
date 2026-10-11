@@ -2,7 +2,7 @@
   "manifest_version": "v6.2-authoritative-20261011",
   "release_id": "AppliedEnergy-v6.2-20261010",
   "status": "PASS",
-  "entry_count": 132,
+  "entry_count": 133,
   "entries": [
     {
       "path": "code/03_run_benchmark.py",
@@ -96,8 +96,8 @@
     },
     {
       "path": "code/repair_figure1_geometry_v6_2.py",
-      "bytes": 3010,
-      "sha256": "9322a491320288e1ad80f259306d281f5244daef623e880710d7009489792da5"
+      "bytes": 3008,
+      "sha256": "4698cc1f9d28c5b2e366fda13f69ba020b91e32797bf3b00021efb83f106238f"
     },
     {
       "path": "code/requirements-lock.txt",
@@ -468,6 +468,11 @@
       "path": "manuscript/generated_results_v6_2.tex",
       "bytes": 4710,
       "sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3"
+    },
+    {
+      "path": "qa/applied_energy_live_guide_check_20261011.md",
+      "bytes": 1246,
+      "sha256": "99722318cf67bbe77378f7107d24fd33c91c77e1ac084cb65bc09be4d17257e0"
     },
     {
       "path": "qa/b0_full_output_audit.json",

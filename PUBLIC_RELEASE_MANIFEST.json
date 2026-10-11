@@ -402,7 +402,12 @@
     {
       "path": "package_validation.json",
       "bytes": 682,
-      "sha256": "365f3e0d394af8a1b9c55434914a01d3c95629af43a4fb99711c1baee8520965"
+      "sha256": "fa062dfd162940ff818cf02e6832cc8f5c5605480134bc602c669158a555503f"
+    },
+    {
+      "path": "qa/applied_energy_live_guide_check_20261011.md",
+      "bytes": 1246,
+      "sha256": "99722318cf67bbe77378f7107d24fd33c91c77e1ac084cb65bc09be4d17257e0"
     },
     {
       "path": "qa/b0_full_output_audit.json",
@@ -591,8 +596,8 @@
     },
     {
       "path": "release_manifest_v6_2.json",
-      "bytes": 24094,
-      "sha256": "9f0c1b207623e3ea8389364e21bdbb24316f21338b76cfc8db6f3eaaf870ce2b"
+      "bytes": 24280,
+      "sha256": "0b862e250df79d824c03db4bfe7ac59a93ee1dca5e9bd3bad8c37717c184f057"
     },
     {
       "path": "RELEASE_README.md",
