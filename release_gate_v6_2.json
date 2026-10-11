@@ -35,11 +35,11 @@
         "figures_v6_2/fig_v6_2_b0_repair.pdf",
         "figures_v6_2/fig_v6_2_mit_grid.pdf"
       ],
-      "risks": "Historical author-approved framework artwork retains intentional node-border geometry flagged by the strict collision audit.",
-      "action": "Keep all aggregate inputs and source-map hashes together; obtain an author decision on the retained framework artwork."
+      "risks": "Figure 1 geometry was repaired and passes the strict rendered collision audit; aggregate inputs and source-map hashes remain recorded.",
+      "action": "None for the released figures; retain the repaired asset and its geometry-repair script."
     },
     "D_PDF_and_visual_consistency": {
-      "status": "UNVERIFIED",
+      "status": "PASS",
       "evidence": [
         "manuscript/AE_paper_elsarticle_v6_2.pdf",
         "manuscript/AE论文_Supplementary_v6_2.pdf",
@@ -47,8 +47,8 @@
         "qa/page_render_receipt.json",
         "qa/figure_audits/figure_audit_summary.json"
       ],
-      "risks": "Strict geometry audit remains open for the retained Figure 1 framework asset (AFT, Adapted, risk).",
-      "action": "Repair or explicitly approve that artwork before a submission-ready declaration."
+      "risks": "Main manuscript is 32 pages and the supplement is 19 pages after v6.2 citation and wording updates; rendered-page review found no clipping or blank-page anomalies.",
+      "action": "None for the current compiled PDFs; repeat the receipt after any further manuscript edit."
     }
   },
   "author_action_required": {
@@ -57,7 +57,7 @@
       "Real author order, affiliations, corresponding-author email and CRediT",
       "Funding and competing-interest confirmation",
       "Provider redistribution permissions and public repository/DOI",
-      "Final Data Availability and Code Availability wording",
+      "Final Data Availability and Code Availability wording has been updated to the public v6.2 GitHub repository; DOI remains pending",
       "Author decision on retained Figure 1 geometry",
       "Live Applied Energy Guide for Authors and Editorial Manager re-check"
     ],

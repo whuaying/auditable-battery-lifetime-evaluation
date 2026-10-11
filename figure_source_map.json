@@ -2,13 +2,13 @@
   {
     "manuscript": "AE_paper_elsarticle_v6.tex",
     "asset": "figures_v6/fig_v6_source_cohort.pdf",
-    "asset_sha256": "197fa3423130da66579b58f09ce416d7a6925ea1e09a570a296587857f4fce07",
+    "asset_sha256": "4d47d468dc7ce12a41dad285f883bf78d6e8dd38342cae1e40a63648eb41bfcc",
     "input_files": [],
     "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
-    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
-    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "generating_script": "code/repair_figure1_geometry_v6_2.py",
+    "generating_script_sha256": "9322a491320288e1ad80f259306d281f5244daef623e880710d7009489792da5",
     "script_status": "historical_script_hash_verified_in_repository",
-    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+    "source_note": "Geometry-only repair of the retained author-approved vector framework: AFT and Adapted risk labels moved inside node borders; metric labels separated for strict audit. No data, wording, or panel content changed."
   },
   {
     "manuscript": "AE_paper_elsarticle_v6.tex",

@@ -1,0 +1,5 @@
+Six source-held-out cases expose endpoint and transfer dependence in lifetime scores.
+Common IPCW Brier tuning compares five survival families without target leakage.
+Observed-record EOL80 proxies and confirmation rules change event-time conclusions.
+Conditional intervals retain cell/training uncertainty and unavailable scores.
+Restricted timing proxies yield criterion-dependent actions; benefits unvalidated.

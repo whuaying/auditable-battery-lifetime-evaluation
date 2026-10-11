@@ -16,7 +16,7 @@
 \raggedright
 \begin{center}
 {\Large\bfseries Supplementary file S1}\\[4pt]
-Auditable cross-source evaluation of battery lifetime predictions and cell-replacement decisions
+Auditable cross-source evaluation of battery lifetime predictions and restricted timing proxies
 \end{center}
 
 The main benchmark uses the common inner-fold IPCW Brier selection objective. Descriptive controls retain the source-selected AFT scale and the label-access settings described below. The six sources are six source-held-out transfer cases; cells within one source are the evaluation units for source-conditional scores. Integrated scores are source-specific and use the supported grid of each source. Retained internal controls are in \texttt{eda/rebuild\_v4}; corrective external and replacement analyses are in \texttt{eda/rebuild\_v6}. The current benchmark uses common-objective tuning; the historical mixed-objective benchmark is archived separately.
@@ -122,7 +122,7 @@ At the cycle-100 20\% target budget, calibration cell counts are 25, 8, 24, 2, 2
 For the specified event-only absolute-residual split-conformal construction, a finite ordinary empirical 95\% quantile requires at least 19 observed event residuals. Under random 20\% allocation, the exact chance of at least 19 is 5.22\% for TJU and $2.75\times10^{-6}$ for MIT; the other four sources' budgets cannot reach 19. The calculation gives event-label count probabilities. Coverage for the full censored population was not evaluated. The exact calculation is in \path{calibration_budget_feasibility.csv}.
 
 \section*{S5. Reproduction and submission boundaries}
-\texttt{protocol\_v4.json} is a historical protocol file retained with its original hashes. The current common-objective benchmark is documented by \path{benchmark_config.json} and candidate-validation outputs. The directory \texttt{rebuild\_v4} contains current and historical records. \path{evidence_strengthening_protocol.json} and \path{analysis_consistency_audit.csv} record current code/input linkage checks. Historical endpoint per-fit hashes were not recorded. The original provider archives remain external. The main paper cites CALCE's CS2/CX2-linked article and the separate official K2 data page; that K2 page does not identify an experiment-specific article, so its preferred article citation requires provider confirmation. Source-specific redistribution rights for MIT, NASA and CALCE, and real author and funding declarations also require confirmation before submission. An external replay needs provider archives, documented parsers, environment versions and the versioned public repository release; a permanent DOI is pending.
+\texttt{protocol\_v4.json} is a historical protocol file retained with its original hashes. The current common-objective benchmark is documented by \path{benchmark_config.json} and candidate-validation outputs. The directory \texttt{rebuild\_v4} contains current and historical records. \path{evidence_strengthening_protocol.json} and \path{analysis_consistency_audit.csv} record current code/input linkage checks. Historical endpoint per-fit hashes were not recorded. The original provider archives remain external. The main paper cites CALCE's CS2/CX2-linked article and the separate official K2 data page; that K2 page does not identify an experiment-specific article, so its preferred article citation requires provider confirmation. Source-specific redistribution rights for MIT, NASA and CALCE, and real author and funding declarations also require confirmation before submission. An external replay needs provider archives, documented parsers, environment versions and a versioned public deposit.
 
 \section*{S6. Position relative to related research}
 The published methods of Ly et al. (DOI 10.1016/j.apenergy.2023.121355) and Ibraheem et al. (DOI 10.1016/j.egyai.2024.100465) were inspected on 9 October 2026. \path{literature_evidence_matrix.csv} records primary sources and locators; \path{nearest_methods_comparison.csv} supplies Table~\ref{tab:S5}. \path{literature_protocol.json} records PDF versions, hashes and the separately inspected author-code versions. This comparison concerns methods and evaluated quantities; the author models and published numerical results were not reproduced.
@@ -219,19 +219,19 @@ L & Version & Model & IBS & C & MedAPE (\%)\\\midrule
 100 & Frozen & Cox & 0.070 & 0.611 & 14.1\\
 100 & Frozen & RSF & 0.208 & 0.618 & 55.8\\
 100 & Frozen & XGB-AFT & 0.054 & 0.592 & 34.8\\
-50 & v6 & KM & 0.116 & 0.500 & 6.9\\
-50 & v6 & LN-AFT & 0.070 & 0.603 & 9.1\\
-50 & v6 & Cox & 0.077 & 0.610 & 12.4\\
-50 & v6 & RSF & 0.089 & 0.509 & 17.6\\
-50 & v6 & XGB-AFT & 0.065 & 0.589 & 71.5\\
-100 & v6 & KM & 0.114 & 0.500 & 6.9\\
-100 & v6 & LN-AFT & 0.070 & 0.617 & 12.0\\
-100 & v6 & Cox & 0.070 & 0.611 & 14.1\\
-100 & v6 & RSF & 0.160 & 0.602 & 46.6\\
-100 & v6 & XGB-AFT & 0.056 & 0.594 & 30.8\\
+50 & v6.2 & KM & 0.116 & 0.500 & 6.9\\
+50 & v6.2 & LN-AFT & 0.070 & 0.603 & 9.1\\
+50 & v6.2 & Cox & 0.077 & 0.610 & 12.4\\
+50 & v6.2 & RSF & 0.089 & 0.509 & 17.6\\
+50 & v6.2 & XGB-AFT & 0.065 & 0.589 & 71.5\\
+100 & v6.2 & KM & 0.114 & 0.500 & 6.9\\
+100 & v6.2 & LN-AFT & 0.070 & 0.617 & 12.0\\
+100 & v6.2 & Cox & 0.070 & 0.611 & 14.1\\
+100 & v6.2 & RSF & 0.160 & 0.602 & 46.6\\
+100 & v6.2 & XGB-AFT & 0.056 & 0.594 & 30.8\\
 \bottomrule\end{tabular*}\end{table}
 
-\textbf{Historical derating proxy.} The original replay has XGB mean normalized proxy cost 1.1192 versus fixed 1.0700 (+4.60\%); late actions change from 3/47 to 2/47. All EOL80 endpoints exceed cycle 500, so replacement and derating at 500 have zero pre-action endpoint deficit. Their labels do not identify separate service or degradation effects. The original deficit is a record-sum capacity-deficit proxy, not a cycle-width integral; its cost coefficients cannot be carried into an integrated quantity without unit changes. These adverse historical results are retained but are not the v6 primary decision analysis.
+\textbf{Historical derating proxy.} The original replay has XGB mean normalized proxy cost 1.1192 versus fixed 1.0700 (+4.60\%); late actions change from 3/47 to 2/47. All EOL80 endpoints exceed cycle 500, so replacement and derating at 500 have zero pre-action endpoint deficit. Their labels do not identify separate service or degradation effects. The original deficit is a record-sum capacity-deficit proxy, not a cycle-width integral; its cost coefficients cannot be carried into an integrated quantity without unit changes. These adverse historical results are retained but are not the v6.2 primary decision analysis.
 
 
 \begin{table}[H]\centering\scriptsize

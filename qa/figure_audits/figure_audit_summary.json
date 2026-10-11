@@ -87,11 +87,11 @@
     },
     {
       "figure": "fig_v6_source_cohort",
-      "verdict": "UNVERIFIED",
-      "fails": 3,
-      "warns": 4,
-      "note": "Historical author-approved Figure 1 asset retains intentional node-border text geometry; strict collision findings remain open."
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": "Geometry-only Figure 1 repair passed strict rendered collision audit; data and panel content preserved."
     }
   ],
-  "strict_audit_note": "All newly generated and layout-repaired figures pass; the retained author-approved framework asset has three intentional text-stroke findings requiring author/layout decision before submission."
+  "strict_audit_note": "All released figures pass the strict rendered collision audit; Figure 1 node-label geometry was repaired without changing data or panel content."
 }

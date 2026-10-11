@@ -1,8 +1,8 @@
 {
   "repository_name": "auditable-battery-lifetime-evaluation",
-  "release": "Applied Energy v6.2 public staging",
+  "release": "Applied Energy v6.2 public release",
   "created": "2026-10-11",
-  "status": "PREPARED_NOT_PUBLISHED",
+  "status": "PUBLIC_GITHUB_MAIN",
   "entries": [
     {
       "path": ".gitignore",
@@ -75,6 +75,11 @@
       "sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4"
     },
     {
+      "path": "code/make_graphical_abstract_v6_2.py",
+      "bytes": 3272,
+      "sha256": "e4b98fc91252554b6f9ad3ce6f7cc1b5515bf8b31415ad75006e0897b589a3d0"
+    },
+    {
       "path": "code/model_bank.py",
       "bytes": 4838,
       "sha256": "25329b000f25a80b282bb58497086721154331c46cc90ec8793704efc1975147"
@@ -93,6 +98,11 @@
       "path": "code/release_v6_2_figure_generation.py",
       "bytes": 2285,
       "sha256": "c9f1b3ad16deccdfbacca580e0fd237a3ae60a22b1d57dc9ae030ace62bb1e82"
+    },
+    {
+      "path": "code/repair_figure1_geometry_v6_2.py",
+      "bytes": 3010,
+      "sha256": "9322a491320288e1ad80f259306d281f5244daef623e880710d7009489792da5"
     },
     {
       "path": "code/requirements-lock.txt",
@@ -241,13 +251,13 @@
     },
     {
       "path": "DATA_ACCESS.md",
-      "bytes": 1042,
-      "sha256": "5cc6032082adb619767cc5fb92965cab356215bca2c77b093a85a416cfeb2dcb"
+      "bytes": 1086,
+      "sha256": "d47a477a2bbc16475dc4711f0fd31548b59c1c9d07fb48ad343a2c06424cb251"
     },
     {
       "path": "figure_source_map.json",
-      "bytes": 13330,
-      "sha256": "f06e2d6540dc9f05ea892ee3f2e79d52af91cb5e3b3b7469a58a6d87248960e9"
+      "bytes": 13347,
+      "sha256": "a6a4d33dc4aadb32369d505421abd8fb9dbfdd5580738526bf8c2fda1137e6f9"
     },
     {
       "path": "figures_v4/fig_v4_benchmark_brier.pdf",
@@ -306,8 +316,8 @@
     },
     {
       "path": "figures_v6/fig_v6_source_cohort.pdf",
-      "bytes": 149456,
-      "sha256": "197fa3423130da66579b58f09ce416d7a6925ea1e09a570a296587857f4fce07"
+      "bytes": 149451,
+      "sha256": "4d47d468dc7ce12a41dad285f883bf78d6e8dd38342cae1e40a63648eb41bfcc"
     },
     {
       "path": "figures_v6_2/fig_v6_2_b0_repair.pdf",
@@ -340,29 +350,49 @@
       "sha256": "53d8320cfe1dd5e29699761eed8c1b3cd1266033d23851ab6420b765a8830d22"
     },
     {
+      "path": "figures_v6_2/graphical_abstract_v6_2.pdf",
+      "bytes": 98369,
+      "sha256": "055a9aa573c6217269dd3ef85c87cf28f6b8e463dc4a6a7f502fa3d54fa3b689"
+    },
+    {
+      "path": "figures_v6_2/graphical_abstract_v6_2.png",
+      "bytes": 292032,
+      "sha256": "ac96643d776e2f7d1ee1d53baea5c9eef0708b2bfbd51f0ea56bfc5ad5c5a7cb"
+    },
+    {
+      "path": "highlights/AE_Highlights_v6_2.docx",
+      "bytes": 36971,
+      "sha256": "67b83a3fa3f7c6bf7c8d3d533946578150bdabfbb046b67ba73e83b8819cc666"
+    },
+    {
+      "path": "highlights/AE_Highlights_v6_2.txt",
+      "bytes": 414,
+      "sha256": "388bd7611b8f68c9ed9047d29f37cf0cfaf3b5c1c6a878b6764bbceee7b58a52"
+    },
+    {
       "path": "LICENSE_PENDING.md",
       "bytes": 365,
       "sha256": "10110698566103e092435997cb7fd2729dd4184902cb82f0341ccffc6593db4b"
     },
     {
       "path": "manuscript/AE_paper_elsarticle_v6_2.pdf",
-      "bytes": 1072300,
-      "sha256": "2bf289519c4b0e7690e9735e6089fcd6ec23410ff446305a75c661f3feca15dc"
+      "bytes": 1073378,
+      "sha256": "0e1ab162defab0a4a226b18b87ffdf451c894b28395339c4ff6f9f4a80e6e7b7"
     },
     {
       "path": "manuscript/AE_paper_elsarticle_v6_2.tex",
-      "bytes": 62808,
-      "sha256": "fc51b6dc658be09bc5ee9057d04ccf86e80ade598bf1e651372c5e7a925ed7c3"
+      "bytes": 63075,
+      "sha256": "f49db42f56a915ac2076476ceedc9d472d00c81c2eeff095d0d7e26cde1dd897"
     },
     {
       "path": "manuscript/AE论文_Supplementary_v6_2.pdf",
-      "bytes": 432479,
-      "sha256": "a91f07c298f825c5d374553fbfec453176cea5852627ffc163947e0444185013"
+      "bytes": 432475,
+      "sha256": "2a7277ab16740eb6c4e4a03e06aa99388ace217cda3eb4b5337c3e52c7e53af7"
     },
     {
       "path": "manuscript/AE论文_Supplementary_v6_2.tex",
-      "bytes": 60644,
-      "sha256": "66f87c7282502f60fbb68d3a1c259d84ee377011c44c34a4636cdb54ae96d3c5"
+      "bytes": 60624,
+      "sha256": "9719b1cb8d33209af453f30a7d0b75b4807f05c2f0222798da1ea025bea43d3f"
     },
     {
       "path": "manuscript/generated_results_v6_2.tex",
@@ -372,7 +402,7 @@
     {
       "path": "package_validation.json",
       "bytes": 682,
-      "sha256": "d1e603bda7624115de35eed050c80dfe11952616cf49f4065e6e5c0e07877976"
+      "sha256": "e06ec0f220f9e96237ed3379cde9a5f9bf23142ad14e49cd0f80178d2efc2d67"
     },
     {
       "path": "qa/b0_full_output_audit.json",
@@ -510,9 +540,14 @@
       "sha256": "6f751e3175327e8939de2abf15111fbfcfe4bf7637f78d3f5e9f782eac8acc8f"
     },
     {
+      "path": "qa/figure_audits/fig_v6_source_cohort.collision.log",
+      "bytes": 349,
+      "sha256": "ff0923fb79872e54b59d83b654cc8cc6893e75c4f6da956cb06051d91b5c8a7d"
+    },
+    {
       "path": "qa/figure_audits/fig_v6_source_cohort.json",
-      "bytes": 4626,
-      "sha256": "78eb8b90e265fa98e49be70cdf3f25b0b53e28b02bcaddd1e86b096fc22a5a4e"
+      "bytes": 555,
+      "sha256": "da7fba12355adc9a17859c8d253a76437fddcdfb3baf86929ad1353a5f76390b"
     },
     {
       "path": "qa/figure_audits/fig_v6_source_cohort.text.json",
@@ -521,23 +556,23 @@
     },
     {
       "path": "qa/figure_audits/figure_audit_summary.json",
-      "bytes": 2260,
-      "sha256": "b99d1a0e79622e437291d1fb170e2e902ca32c13c10073c162dc043c7a5e29c2"
+      "bytes": 2181,
+      "sha256": "565693bb9cb1c2d46e6a5bafa7e0d4262e947eedbdaa9ac90fcf217dd6f31665"
     },
     {
       "path": "qa/page_counts.txt",
       "bytes": 83,
-      "sha256": "6eec62dbf479b6e97b127e80617de85104a488e31e75cb7210e9f9e1fd397d80"
+      "sha256": "05183785558ede2b480c026d08f426adf4dbcf7a69bc68ba7b73f42a43581001"
     },
     {
       "path": "qa/page_render_receipt.json",
       "bytes": 615,
-      "sha256": "7ce87adac5029dd23df52e61e46695d5556f984ca5132a99760f9f4ec807f794"
+      "sha256": "708cc828573cad7cdf63d34f3fe59f551d5eff1214dbd2f64908adc083513887"
     },
     {
       "path": "qa/pdf_consistency.json",
-      "bytes": 677,
-      "sha256": "d26c6026a722757ad99e85e05bdf8ff3b010f57a051101f8e03f0e44ce8f0e71"
+      "bytes": 678,
+      "sha256": "3acf858b37a08a155a50e15c6288d19c3ca94ce0c746a81ce1419fd194847a93"
     },
     {
       "path": "qa/test_receipt.json",
@@ -546,18 +581,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 1585,
-      "sha256": "b00c620905fb769c98a443465c2bac6dad9ec2eeaafdfd74a5e888e783fa3099"
+      "bytes": 1644,
+      "sha256": "9648c21b97dd3f95feb4c9f3024d670577d1a12edf03259d2d4ad4df280a1ee7"
     },
     {
       "path": "release_gate_v6_2.json",
-      "bytes": 3143,
-      "sha256": "4971b1d115267c2ccaac7ad5fe9209a9a285699e656ed11232a5c925e6f590c1"
+      "bytes": 3341,
+      "sha256": "0e1f72b3e917685e456283f0305b03690c5d214c06e3cda6962f3ede9c410322"
     },
     {
       "path": "release_manifest_v6_2.json",
-      "bytes": 23033,
-      "sha256": "15adab217bfe5c0fe45ad7bf9e607947031d334a67a4e22a0fe4ab4b26693e40"
+      "bytes": 24279,
+      "sha256": "d2f19a343bbff11dd67505df5a5128bee16e08c5a284a5bd8e6b6286ea07b0f9"
     },
     {
       "path": "RELEASE_README.md",
@@ -579,5 +614,10 @@
       "bytes": 1655,
       "sha256": "4ffeba247deb080107b1406279757f5d709dcaeed0c9858f33cdd2a16640461d"
     }
-  ]
+  ],
+  "notes": {
+    "authors": "Author information intentionally omitted pending author completion.",
+    "data_boundary": "Provider archives and cell/cycle-level derived data remain excluded; aggregate outputs and public scripts are included.",
+    "doi": "Permanent DOI pending."
+  }
 }

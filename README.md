@@ -9,7 +9,7 @@ Repository name: `auditable-battery-lifetime-evaluation`
 - Reproducible analysis code, contracts, configuration and dependency locks under `code/`.
 - Machine-readable aggregate results and reporting outputs under `data/`.
 - Manuscript and Supplementary source/PDF files under `manuscript/`.
-- Vector figures, source maps, release manifests and QA receipts.
+- Vector figures, Graphical Abstract, Highlights, source maps, release manifests and QA receipts.
 
 ## Data access boundary
 
