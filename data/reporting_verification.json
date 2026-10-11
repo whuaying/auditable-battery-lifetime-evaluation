@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED_AGGREGATES_ONLY",
+  "phase": "all",
+  "checks": [
+    "median_availability",
+    "NASA_cycle125",
+    "selection_support",
+    "criterion_margins",
+    "selection_diagnostics",
+    "scenario_contrasts",
+    "scenario_summary",
+    "ISEA_reference_actions"
+  ],
+  "cache_diagnostics": "REPORTED_RECORDS_CHECKED_WITHOUT_CACHE_REPLAY",
+  "outputs": {
+    "median_availability": "858ef6483e3492a87fe5806e8d50f3423260687485d9c935dbfd62e1052462bf",
+    "NASA_cycle125": "aba2a8c51987f69e00ec936e4b048cedd2a96c8968a4caa895aa9c23f64fc1e5",
+    "selection_support": "adbc1af49b91c63691237172487c57a542975dd346425e653a1949742b32c20b",
+    "criterion_margins": "af4728955dd94270cbb1483b5ae19aa38d6a0a0b387d6e2a261007d6fcb61490",
+    "selection_diagnostics": "519b94f2a8cb3476a88f81ad332c4d17f9ac67c997af6ee8ef470e8d95842a9b",
+    "scenario_contrasts": "4bc60232c2d9f3e9c00ddfbabab06fb1da90dd882636e6653035038096487a72",
+    "scenario_summary": "64b217a372a06c241b27dae047b6ac6b23b7c1456b06c913ea61ff842a222c90",
+    "ISEA_reference_actions": "cb33810d691d7908b82be67c6764afb323ed1bb0d20979e470f7c5ad1e385e1f"
+  }
+}

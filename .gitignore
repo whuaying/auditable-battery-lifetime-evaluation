@@ -1,0 +1,19 @@
+# Keep provider archives and restricted derived data out of the public repository.
+**/raw/
+**/raw_data/
+**/provider_archives/
+**/*cell_level*
+**/*cycle_level*
+**/*row_level*
+**/*fit_cache*
+**/*cache*/
+**/.venv*/
+**/replay_*/
+**/render*/
+*.zip
+*.7z
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.mat

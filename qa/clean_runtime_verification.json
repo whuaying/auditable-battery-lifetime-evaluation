@@ -1,0 +1,61 @@
+{
+  "status": "VERIFIED",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "executable": "D:\\AEpaper\\.venv_v6_2_release\\Scripts\\python.exe",
+  "installed_distributions_exact_lock": true,
+  "install_source": "official PyPI; mirror lacked locked packages",
+  "fits": "10 fresh external full-source model fits, no fit-cache shortcut; six horizon comparisons and risk scores",
+  "results": [
+    {
+      "landmark": 50,
+      "model": "km",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 50,
+      "model": "lognormal_aft",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 50,
+      "model": "cox",
+      "max_curve_difference": 1.1102230246251565e-16
+    },
+    {
+      "landmark": 50,
+      "model": "rsf",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 50,
+      "model": "xgb_aft",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 100,
+      "model": "km",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 100,
+      "model": "lognormal_aft",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 100,
+      "model": "cox",
+      "max_curve_difference": 0.0
+    },
+    {
+      "landmark": 100,
+      "model": "rsf",
+      "max_curve_difference": 1.1102230246251565e-16
+    },
+    {
+      "landmark": 100,
+      "model": "xgb_aft",
+      "max_curve_difference": 0.0
+    }
+  ],
+  "scope": "fresh canonical fit replay; historical Python312 recovery separately verified"
+}

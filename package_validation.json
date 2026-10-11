@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "validation_version": "v6.2-package-validation-20261011",
+  "manifest_path": "release_manifest_v6_2.json",
+  "manifest_sha256": "15adab217bfe5c0fe45ad7bf9e607947031d334a67a4e22a0fe4ab4b26693e40",
+  "manifest_entry_count": 126,
+  "pdf_consistency": "qa/pdf_consistency.json",
+  "render_receipt": "qa/page_render_receipt.json",
+  "figure_map": "figure_source_map.json",
+  "archive_note": "The archive is validated against the manifest payload; this receipt is included without self-hashing to avoid a circular archive hash.",
+  "archive_path": "AppliedEnergy_v6_2_release_20261010.zip",
+  "archive_bytes": 5866617,
+  "archive_entry_count": 129
+}

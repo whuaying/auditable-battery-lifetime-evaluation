@@ -1,0 +1,236 @@
+[
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v6/fig_v6_source_cohort.pdf",
+    "asset_sha256": "197fa3423130da66579b58f09ce416d7a6925ea1e09a570a296587857f4fce07",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v4/fig_v4_benchmark_brier.pdf",
+    "asset_sha256": "6a61ed74b5a594fbe4e5cdc0238a5e66fc398e8b217ded7555f1ff9697b1788c",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v4/fig_v4_survival_calibration.pdf",
+    "asset_sha256": "de0f6425ec0b0e9afd022cd3657cd4e36ca747c022bc61ba46122b399a3deb44",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v4/fig_v4_endpoint_model_sensitivity.pdf",
+    "asset_sha256": "69d5fa482fde4c3b8de72ec7de2d0ea349e0208c8a227bdf46f3c77774bc6d8c",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v4/fig_v4_source_correction.pdf",
+    "asset_sha256": "56f6bd1e2d7723033123657e210893db6b6c3bfa88c73f487b1767c9bfa725f4",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v4/fig_v4_target_recalibration.pdf",
+    "asset_sha256": "10e12c283a7a7af9a0e701496677f73fe8c2a624c30b3cf834dde2e090282079",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v6/fig_v6_external_scoring.pdf",
+    "asset_sha256": "51b89e3464b1e2e134dcb450488892662de3c700650919a97b46fbbe7ec1370a",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v6/fig_v6_selection_consequences.pdf",
+    "asset_sha256": "2753727ee102e1325ba76b49a501e0b304db935a62697eb0a65e7d7dd43e1f05",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE_paper_elsarticle_v6.tex",
+    "asset": "figures_v6/fig_v6_replacement_tradeoff.pdf",
+    "asset_sha256": "b833d55980d32e46b4d053ff6bc2843acab582df5d7c21aa9b5e535c410d1390",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE论文_Supplementary_v6.tex",
+    "asset": "figures_v4/fig_v5_endpoint_observation.pdf",
+    "asset_sha256": "85b99582a9919674083355193755bb1dda596a5f397ec88e4ace1a5b57379fa8",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "code/rebuild_endpoint_figure_v6_2.py (layout-only re-render from protected historical audits)",
+    "generating_script_sha256": "94b8600d8f3f239f0693650f1ce681e6c2d66122218f0fbef3bd0f1feda2928f",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "AE论文_Supplementary_v6.tex",
+    "asset": "figures_v6/fig_v6_scenario_contrasts.pdf",
+    "asset_sha256": "a5adb4f5e76b15b93f1df2af69b3ba3236ebfadddccc77602d22eb7285d105d5",
+    "input_files": [],
+    "input_status": "HISTORICAL_FROZEN_ASSET_SOURCE_INPUT_OUTSIDE_RELEASE",
+    "generating_script": "eda/rebuild_v6/07_make_figures.py (historical frozen asset; unchanged in v6.2)",
+    "generating_script_sha256": "f5fefca53bc68e24c647009ba68f325597c0dbd08df1d18eba1e108b72466065",
+    "script_status": "historical_script_hash_verified_in_repository",
+    "source_note": "The original source table is retained in the protected v6 history; this release records the asset hash and does not recreate it from a substitute input."
+  },
+  {
+    "manuscript": "manuscript/AE论文_Supplementary_v6_2.tex",
+    "citation": "tab:v62_b0",
+    "asset": "figures_v6_2/fig_v6_2_b0_repair.pdf",
+    "asset_sha256": "c01ca38ae5f9cd1266c289583393eeefa9feaadc0bcd4dcf71668e7c3e5738ec",
+    "input_files": [
+      {
+        "path": "data/b0_reconciliation.json",
+        "sha256": "aea36ba662fc48d4dbcda3a1701a7adf5d55fc4701c1fadff33e6c72a4107d4c"
+      },
+      {
+        "path": "data/b0_old_new_field_diff.csv",
+        "sha256": "b51c463bec4f1c7ea26716eae2e93b0c415e29ee3ae416d4ba4d61dde51e0576"
+      }
+    ],
+    "generating_script": "code/release_v6_2_figure_generation.py",
+    "generating_script_sha256": "c9f1b3ad16deccdfbacca580e0fd237a3ae60a22b1d57dc9ae030ace62bb1e82",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/AE论文_Supplementary_v6_2.tex",
+    "citation": "tab:v62_grid",
+    "asset": "figures_v6_2/fig_v6_2_mit_grid.pdf",
+    "asset_sha256": "61c43f44053c790a12fa22da0709c1a95cdf963e0b89f4da2cff678d15edacaa",
+    "input_files": [
+      {
+        "path": "data/mit_grid_confirmation_summary.csv",
+        "sha256": "9aca0e6878e149813f3af92bfa427cc8f7e135fc4b9c8008183f85ffe802022b"
+      }
+    ],
+    "generating_script": "code/release_v6_2_figure_generation.py",
+    "generating_script_sha256": "c9f1b3ad16deccdfbacca580e0fd237a3ae60a22b1d57dc9ae030ace62bb1e82",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/generated_results_v6_2.tex",
+    "citation": "tab:v62_calce",
+    "asset": "manuscript/generated_results_v6_2.tex",
+    "asset_sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3",
+    "input_files": [
+      {
+        "path": "data/calce_event_error_diagnostics.csv",
+        "sha256": "d3fbb62da0ddc1065d84b9d5b4b19d4b98ceb9db0464d97b09b27277e9c9e2c1"
+      }
+    ],
+    "generating_script": "code/generate_result_tables.py",
+    "generating_script_sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/generated_results_v6_2.tex",
+    "citation": "tab:v62_grid",
+    "asset": "manuscript/generated_results_v6_2.tex",
+    "asset_sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3",
+    "input_files": [
+      {
+        "path": "data/mit_grid_confirmation_summary.csv",
+        "sha256": "9aca0e6878e149813f3af92bfa427cc8f7e135fc4b9c8008183f85ffe802022b"
+      }
+    ],
+    "generating_script": "code/generate_result_tables.py",
+    "generating_script_sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/generated_results_v6_2.tex",
+    "citation": "tab:v62_select",
+    "asset": "manuscript/generated_results_v6_2.tex",
+    "asset_sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3",
+    "input_files": [
+      {
+        "path": "data/grid_selection_comparison.csv",
+        "sha256": "9dc9287ca93a31147c89415d1a48245bd6968d5618b88e0a9938e2f82760472e"
+      }
+    ],
+    "generating_script": "code/generate_result_tables.py",
+    "generating_script_sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/generated_results_v6_2.tex",
+    "citation": "tab:v62_common",
+    "asset": "manuscript/generated_results_v6_2.tex",
+    "asset_sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3",
+    "input_files": [
+      {
+        "path": "data/grid_common_support_sensitivity.csv",
+        "sha256": "82bf796780ffaf9a116d844ac43d2a972fcd0797e78ef1f502c51c8d019bb88e"
+      }
+    ],
+    "generating_script": "code/generate_result_tables.py",
+    "generating_script_sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  },
+  {
+    "manuscript": "manuscript/generated_results_v6_2.tex",
+    "citation": "tab:v62_b0",
+    "asset": "manuscript/generated_results_v6_2.tex",
+    "asset_sha256": "b5c2ea77638a311afd3a60463d450f844c185bfc7f7107de09421fe8c6d6d1f3",
+    "input_files": [
+      {
+        "path": "data/b0_reconciliation.json",
+        "sha256": "aea36ba662fc48d4dbcda3a1701a7adf5d55fc4701c1fadff33e6c72a4107d4c"
+      },
+      {
+        "path": "data/b0_old_new_field_diff.csv",
+        "sha256": "b51c463bec4f1c7ea26716eae2e93b0c415e29ee3ae416d4ba4d61dde51e0576"
+      }
+    ],
+    "generating_script": "code/generate_result_tables.py",
+    "generating_script_sha256": "ca828293c9d71faeea0b1cabde0562be49bf99e70b88fdcfdcae8428a79d7bf4",
+    "input_status": "BOUND_TO_FROZEN_V6_2_AGGREGATE"
+  }
+]

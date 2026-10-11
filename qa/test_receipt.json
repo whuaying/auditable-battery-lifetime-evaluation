@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "b0_regression_tests": 3,
+  "fresh_replay_tests": 17,
+  "fresh_replay_receipt": "replay_003/receipt.json",
+  "production_tests": "python -m unittest discover -s release_v6_2_20261010/code -p test_*.py -v"
+}

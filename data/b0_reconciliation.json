@@ -1,0 +1,74 @@
+{
+  "scenarios": 504,
+  "fields": {
+    "planned_action": {
+      "changed": 196,
+      "max_abs_difference": 500.0,
+      "round4_common_support": 504,
+      "round4_unavailable": 0,
+      "matches_round4": true
+    },
+    "effective_action": {
+      "changed": 28,
+      "max_abs_difference": 50.0,
+      "round4_common_support": 504,
+      "round4_unavailable": 0,
+      "matches_round4": true
+    },
+    "maintenance_count": {
+      "changed": 168,
+      "max_abs_difference": 124.0,
+      "round4_common_support": 504,
+      "round4_unavailable": 0,
+      "matches_round4": "NOT_COMPARABLE"
+    },
+    "maintenance_flag": {
+      "changed": 168,
+      "max_abs_difference": 1.0,
+      "round4_common_support": 504,
+      "round4_unavailable": 0,
+      "matches_round4": true
+    },
+    "loss": {
+      "changed": 20,
+      "max_abs_difference": 0.275862068965517,
+      "round4_common_support": 408,
+      "round4_unavailable": 96,
+      "matches_round4": true
+    },
+    "early_cycles": {
+      "changed": 12,
+      "max_abs_difference": 49.4025974025974,
+      "round4_common_support": 0,
+      "round4_unavailable": 504,
+      "matches_round4": "NOT_COMPARABLE"
+    },
+    "late_cycles": {
+      "changed": 20,
+      "max_abs_difference": 50.0000000000001,
+      "round4_common_support": 0,
+      "round4_unavailable": 504,
+      "matches_round4": "NOT_COMPARABLE"
+    },
+    "late_rate": {
+      "changed": 12,
+      "max_abs_difference": 0.0212765957446808,
+      "round4_common_support": 0,
+      "round4_unavailable": 504,
+      "matches_round4": "NOT_COMPARABLE"
+    },
+    "late_known_count": {
+      "changed": 12,
+      "max_abs_difference": 1.0,
+      "round4_common_support": 0,
+      "round4_unavailable": 504,
+      "matches_round4": "NOT_COMPARABLE"
+    }
+  },
+  "input_sha256": {
+    "eda\\rebuild_v6\\replacement_metrics.csv": "0475145b100d71aff218843b6135e62de85c4b051059e06b8e83dbc26b16e43e",
+    "eda\\rebuild_v6_2\\replacement_metrics.csv": "1a7d6a9d40d7984306853b3322734fe0bbac4213e6a450116d7dcfd03392ae9d",
+    "review_round4_20261010\\results_002\\b0_feasibility_audit.csv": "d631997e9dd741e27d4eaef040f7a07e108f2639515f8350fa450ff06ddfbeb7",
+    "eda\\rebuild_v6_2\\b0_old_new_field_diff.csv": "b51c463bec4f1c7ea26716eae2e93b0c415e29ee3ae416d4ba4d61dde51e0576"
+  }
+}

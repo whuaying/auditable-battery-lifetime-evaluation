@@ -1,0 +1,81 @@
+\clearpage\section*{S15. Frozen result tables for v6.2}
+
+\begin{longtable}{llllll}
+\caption{Frozen CALCE far-tail diagnostic at L100 for LN-AFT. MedAPE uses total observed endpoint cycle in its denominator. MAE and MedAE are cycle errors; Pred. R is median predicted residual life. These distinct refits do not replace the primary nine-cell three-reading benchmark.}\label{tab:v62_calce}\\
+\toprule
+Cohort/rule & Events/finite & MedAPE (\%) & MAE & MedAE & Pred. R\\\midrule\endfirsthead
+Cohort/rule & Events/finite & MedAPE (\%) & MAE & MedAE & Pred. R\\\midrule\endhead
+native/one & 7/7 & 31905.8 & 111075.3 & 40520.4 & 40547.4\\
+common/three & 7/7 & 3508.4 & 37742.9 & 20313.8 & 20792.8\\
+\bottomrule\end{longtable}
+
+\begin{longtable}{lllll}
+\caption{Frozen MIT confirmation and support at L100; all grids contain 124 cells. Delay is relative to the reference on commonly confirmed events. At 20 cycles no event is confirmed and delay is NA.}\label{tab:v62_grid}\\
+\toprule
+Grid & Events & Rate & Censor fraction & Median delay\\\midrule\endfirsthead
+Grid & Events & Rate & Censor fraction & Median delay\\\midrule\endhead
+1 & 43/124 & 0.347 & 0.653 & 0.0\\
+5 & 34/124 & 0.274 & 0.726 & 9.0\\
+20 & 0/124 & 0.000 & 1.000 & NA\\
+\bottomrule\end{longtable}
+
+\small C=CALCE, H=HUST, M=MIT, X=XJTU, T=TJU. Fixed and refit arms are separate; S-D below uses loss-only support. S-I original has probability-only support. S-I and S-M use their within-grid matched support.
+
+\begin{longtable}{llllll}
+\caption{Frozen ISEA observation-grid family selection. Gaps retain each criterion units and are not stability probabilities. All S-D rows are separately labelled loss-only sensitivities.}\label{tab:v62_select}\\
+\toprule
+Arm & Grid & Selector & Sources & Winner & Gap\\\midrule\endfirsthead
+Arm & Grid & Selector & Sources & Winner & Gap\\\midrule\endhead
+Fixed & 1 & S\_I & M,X,T,C & RSF & 0.00242\\
+Fixed & 1 & S\_M & M,X,T,C & Cox & 0.38045\\
+Fixed & 1 & S\_D (loss) & M,X,T,C,H & RSF & 0.00807\\
+Fixed & 5 & S\_I & M,X,T,C & Cox & 0.00038\\
+Fixed & 5 & S\_M & M,X,T,C & Cox & 0.77969\\
+Fixed & 5 & S\_D (loss) & M,X,T,C,H & RSF & 0.02213\\
+Refit & 5 & S\_I\_original & M,X,T,C,H & Cox & 0.01860\\
+Refit & 5 & S\_I & M,X,T,C & RSF & 0.00102\\
+Refit & 5 & S\_M & M,X,T,C & RSF & 12.79402\\
+Refit & 5 & S\_D (loss) & M,X,T,C,H & XGB-AFT & 0.01888\\
+Fixed & 20 & S\_I & X,T,C & Cox & 0.01229\\
+Fixed & 20 & S\_M & X,T,C & Cox & 32.29490\\
+Fixed & 20 & S\_D (loss) & M,X,T,C,H & Cox & 0.08824\\
+Refit & 20 & S\_I\_original & M,X,T,C,H & RSF & 0.02430\\
+Refit & 20 & S\_I & X,T,C & RSF & 0.02071\\
+Refit & 20 & S\_M & X,T,C & Cox & 2.21403\\
+Refit & 20 & S\_D (loss) & M,X,T,C,H & Cox & 0.01828\\
+\bottomrule\end{longtable}
+
+\begin{longtable}{llllll}
+\caption{Frozen common-support and probability-only negative controls. The unchanged C/T/X common set excludes intervened MIT. S-D has a separate five-source loss-only set, not the three-source set used by S-I/S-M. The negative results are retained.}\label{tab:v62_common}\\
+\toprule
+Control & Grid & Selector & Sources & Winner & Gap\\\midrule\endfirsthead
+Control & Grid & Selector & Sources & Winner & Gap\\\midrule\endhead
+Probability-only & 1 & S\_I\_original & M,X,T,C,H & Cox & 0.01230\\
+Probability-only & 5 & S\_I\_original & M,X,T,C,H & Cox & 0.01229\\
+Probability-only & 20 & S\_I\_original & M,X,T,C,H & Cox & 0.01309\\
+Common grid & 1 & S\_I & C,T,X & Cox & 0.01229\\
+Common grid & 5 & S\_I & C,T,X & Cox & 0.01229\\
+Common grid & 20 & S\_I & C,T,X & Cox & 0.01229\\
+Common grid & 1 & S\_M & C,T,X & Cox & 32.29490\\
+Common grid & 5 & S\_M & C,T,X & Cox & 32.29490\\
+Common grid & 20 & S\_M & C,T,X & Cox & 32.29490\\
+Loss-only & 1 & S\_D & C,H,M,T,X & RSF & 0.00807\\
+Loss-only & 5 & S\_D & C,H,M,T,X & RSF & 0.02213\\
+Loss-only & 20 & S\_D & C,H,M,T,X & Cox & 0.08824\\
+\bottomrule\end{longtable}
+
+\begin{longtable}{lll}
+\caption{B0 old/new audit across 504 settings. Finite old/new losses have 408 scenarios of common support and 96 NA; event support is not expanded. The complete field rows and all B0-relative paired bootstrap differences accompany the release.}\label{tab:v62_b0}\\
+\toprule
+Field & Changed settings & Largest absolute change\\\midrule\endfirsthead
+Field & Changed settings & Largest absolute change\\\midrule\endhead
+planned\_action & 196 & 500.000000\\
+effective\_action & 28 & 50.000000\\
+maintenance\_count & 168 & 124.000000\\
+maintenance\_flag & 168 & 1.000000\\
+loss & 20 & 0.275862\\
+early\_cycles & 12 & 49.402597\\
+late\_cycles & 20 & 50.000000\\
+late\_rate & 12 & 0.021277\\
+late\_known\_count & 12 & 1.000000\\
+\bottomrule\end{longtable}

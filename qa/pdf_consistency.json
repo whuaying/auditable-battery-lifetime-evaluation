@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "pdfs": [
+    {
+      "path": "manuscript/AE_paper_elsarticle_v6_2.pdf",
+      "pages": 31,
+      "bytes": 1072312,
+      "sha256": "a3ca36f907002a1f478405656a08da427f5fba5f44adbcc244274ba4404d6d7a",
+      "text_chars": 81210,
+      "missing_required": []
+    },
+    {
+      "path": "manuscript/AEÂÛÎÄ_Supplementary_v6_2.pdf",
+      "pages": 19,
+      "bytes": 432443,
+      "sha256": "2e7e99a6d158da85ce7e8f4084e5063e097fb38f3db8ff0946f5627a4f040cf2",
+      "text_chars": 101685,
+      "missing_required": []
+    }
+  ],
+  "figure_map_entries": 18,
+  "cross_reference_warnings": [],
+  "log_error_scan": "PASS"
+}

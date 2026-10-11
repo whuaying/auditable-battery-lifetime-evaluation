@@ -1,0 +1,194 @@
+{
+  "pdf": "D:\\AEpaper\\release_v6_2_20261010\\figures_v6\\fig_v6_source_cohort.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 127,
+  "text_trace_count": 196,
+  "stroke_path_count": 276,
+  "filled_region_count": 178,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 3,
+    "warn": 4,
+    "contained_fill_overlays": 184,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "AFT",
+      "text_bbox": [
+        179.99281311035156,
+        310.376708984375,
+        192.64178466796875,
+        317.0066833496094
+      ],
+      "other_text": null,
+      "other_bbox": [
+        170.21249389648438,
+        294.18499755859375,
+        202.34249877929688,
+        316.3699951171875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        138
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 1 stroked path(s)",
+      "text": "Adapted",
+      "text_bbox": [
+        306.6746826171875,
+        290.0700988769531,
+        338.2611999511719,
+        297.5288391113281
+      ],
+      "other_text": null,
+      "other_bbox": [
+        305.2349853515625,
+        289.7490539550781,
+        337.74749755859375,
+        305.6015625
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        142
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 2 stroked path(s)",
+      "text": "risk",
+      "text_bbox": [
+        314.77093505859375,
+        298.9951171875,
+        328.0859375,
+        306.453857421875
+      ],
+      "other_text": null,
+      "other_bbox": [
+        305.2349853515625,
+        289.7490539550781,
+        337.74749755859375,
+        308.0718688964844
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        142,
+        155
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 2 filled region(s)",
+      "text": "429 verified cells340,838 cycle records",
+      "text_bbox": [
+        12.482250213623047,
+        90.26165008544922,
+        153.0752410888672,
+        97.72039794921875
+      ],
+      "other_text": null,
+      "other_bbox": [
+        11.953125,
+        87.25250244140625,
+        153.64813232421875,
+        100.25750732421875
+      ],
+      "object_count": 2,
+      "object_indexes": [
+        10,
+        11
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "AFT",
+      "text_bbox": [
+        179.99281311035156,
+        310.376708984375,
+        192.64178466796875,
+        317.0066833496094
+      ],
+      "other_text": null,
+      "other_bbox": [
+        170.21249389648438,
+        294.18499755859375,
+        202.34249877929688,
+        316.3699951171875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        138
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Adapted",
+      "text_bbox": [
+        306.6746826171875,
+        290.0700988769531,
+        338.2611999511719,
+        297.5288391113281
+      ],
+      "other_text": null,
+      "other_bbox": [
+        305.2349853515625,
+        289.7490539550781,
+        337.74749755859375,
+        305.6015625
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        142
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "risk",
+      "text_bbox": [
+        314.77093505859375,
+        298.9951171875,
+        328.0859375,
+        306.453857421875
+      ],
+      "other_text": null,
+      "other_bbox": [
+        305.2349853515625,
+        289.7490539550781,
+        337.74749755859375,
+        305.6015625
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        142
+      ]
+    }
+  ]
+}

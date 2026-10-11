@@ -1,0 +1,38 @@
+{
+  "round3": {
+    "planned_action": {
+      "common_support": 504,
+      "mismatches": 0
+    },
+    "effective_action": {
+      "common_support": 504,
+      "mismatches": 0
+    },
+    "maintenance_flag": {
+      "common_support": 0,
+      "mismatches": 0
+    },
+    "loss": {
+      "common_support": 408,
+      "mismatches": 0
+    }
+  },
+  "round4": {
+    "planned_action": {
+      "common_support": 504,
+      "mismatches": 0
+    },
+    "effective_action": {
+      "common_support": 504,
+      "mismatches": 0
+    },
+    "maintenance_flag": {
+      "common_support": 504,
+      "mismatches": 0
+    },
+    "loss": {
+      "common_support": 408,
+      "mismatches": 0
+    }
+  }
+}

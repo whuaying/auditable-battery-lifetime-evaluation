@@ -1,0 +1,75 @@
+{
+  "release": "AppliedEnergy-v6.2-20261010",
+  "gate_status": "UNVERIFIED",
+  "submission_ready": "UNVERIFIED",
+  "technical": {
+    "A_production_B0": {
+      "status": "PASS",
+      "evidence": [
+        "eda/rebuild_v6_2/04_run_replacement.py",
+        "qa/b0_full_output_audit.json",
+        "qa/b0_round3_round4_comparison.json",
+        "data/b0_old_new_field_diff.csv"
+      ],
+      "risks": "B0-relative outputs change by the recorded fields; no non-B0 model or selection changes were detected.",
+      "action": "None for the frozen computational result; retain the full old/new table."
+    },
+    "B_clean_environment_and_Cox": {
+      "status": "PASS",
+      "evidence": [
+        "qa/clean_runtime_verification.json",
+        "replay_003/receipt.json",
+        "code/environment_lock.json",
+        "code/requirements-lock.txt"
+      ],
+      "risks": "Provider archives and row-level fit caches remain local and are not redistributed.",
+      "action": "Repeat the replay only after any dependency or input change."
+    },
+    "C_figures_and_tables": {
+      "status": "PASS",
+      "evidence": [
+        "figure_source_map.json",
+        "data/calce_event_error_diagnostics.csv",
+        "data/mit_grid_confirmation_summary.csv",
+        "manuscript/generated_results_v6_2.tex",
+        "figures_v6_2/fig_v6_2_b0_repair.pdf",
+        "figures_v6_2/fig_v6_2_mit_grid.pdf"
+      ],
+      "risks": "Historical author-approved framework artwork retains intentional node-border geometry flagged by the strict collision audit.",
+      "action": "Keep all aggregate inputs and source-map hashes together; obtain an author decision on the retained framework artwork."
+    },
+    "D_PDF_and_visual_consistency": {
+      "status": "UNVERIFIED",
+      "evidence": [
+        "manuscript/AE_paper_elsarticle_v6_2.pdf",
+        "manuscript/AE论文_Supplementary_v6_2.pdf",
+        "qa/pdf_consistency.json",
+        "qa/page_render_receipt.json",
+        "qa/figure_audits/figure_audit_summary.json"
+      ],
+      "risks": "Strict geometry audit remains open for the retained Figure 1 framework asset (AFT, Adapted, risk).",
+      "action": "Repair or explicitly approve that artwork before a submission-ready declaration."
+    }
+  },
+  "author_action_required": {
+    "status": "AUTHOR_ACTION_REQUIRED",
+    "items": [
+      "Real author order, affiliations, corresponding-author email and CRediT",
+      "Funding and competing-interest confirmation",
+      "Provider redistribution permissions and public repository/DOI",
+      "Final Data Availability and Code Availability wording",
+      "Author decision on retained Figure 1 geometry",
+      "Live Applied Energy Guide for Authors and Editorial Manager re-check"
+    ],
+    "evidence": "manuscript/AE_paper_elsarticle_v6_2.tex and manuscript/AE论文_Supplementary_v6_2.tex"
+  },
+  "prohibited_claims_check": {
+    "status": "PASS",
+    "checks": [
+      "No first-cross-domain-benchmark claim",
+      "No uniform-observation-mechanism claim",
+      "No universal Pd/complex-model superiority claim",
+      "No economic or safety benefit claim for real-cell replacement"
+    ]
+  }
+}

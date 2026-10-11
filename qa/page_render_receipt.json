@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "main_pages": 31,
+  "supplement_pages": 19,
+  "render_dpi": 120,
+  "render_dirs": [
+    "qa/rendered_final2/main",
+    "qa/rendered_final2/supp"
+  ],
+  "contact_sheets": [
+    "qa/rendered_final2/main_contact_final2.png",
+    "qa/rendered_final2/supp_contact_final2.png"
+  ],
+  "visual_review": "PASS for all rendered pages; no page-level clipping or blank-page anomalies observed",
+  "pdf_sha256": {
+    "main": "a3ca36f907002a1f478405656a08da427f5fba5f44adbcc244274ba4404d6d7a",
+    "supplement": "2e7e99a6d158da85ce7e8f4084e5063e097fb38f3db8ff0946f5627a4f040cf2"
+  }
+}

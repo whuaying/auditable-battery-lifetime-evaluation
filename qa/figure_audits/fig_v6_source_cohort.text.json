@@ -1,0 +1,10 @@
+{
+  "pdf": "D:\\AEpaper\\release_v6_2_20261010\\figures_v6\\fig_v6_source_cohort.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 8.0,
+  "text_run_count": 202,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

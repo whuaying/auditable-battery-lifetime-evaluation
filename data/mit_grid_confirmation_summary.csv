@@ -1,0 +1,4 @@
+grid,n_cells,confirmed_events,confirmation_rate,right_censor_fraction,reference_event_lost,new_event_on_hidden_none,mean_confirmation_difference,median_confirmation_difference,min_confirmation_difference,max_confirmation_difference
+1,124,43,0.3467741935483871,0.6532258064516129,0,0,0.0,0.0,0.0,0.0
+5,124,34,0.27419354838709675,0.7258064516129032,9,0,9.558823529411764,9.0,8.0,12.0
+20,124,0,0.0,1.0,43,0,,,,

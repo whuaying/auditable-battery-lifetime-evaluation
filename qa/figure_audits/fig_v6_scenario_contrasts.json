@@ -1,0 +1,23 @@
+{
+  "pdf": "D:\\AEpaper\\release_v6_2_20261010\\figures_v6\\fig_v6_scenario_contrasts.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 273,
+  "text_trace_count": 277,
+  "stroke_path_count": 30,
+  "filled_region_count": 19,
+  "image_region_count": 13,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 144,
+    "contained_image_overlays": 144
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

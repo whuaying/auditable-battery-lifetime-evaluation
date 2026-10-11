@@ -1,0 +1,97 @@
+{
+  "status": "UNVERIFIED",
+  "figures": [
+    {
+      "figure": "fig_v4_benchmark_brier",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v4_endpoint_model_sensitivity",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v4_source_correction",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v4_survival_calibration",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v4_target_recalibration",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v5_endpoint_observation",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_2_b0_repair",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_2_mit_grid",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_external_scoring",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_replacement_tradeoff",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_scenario_contrasts",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_selection_consequences",
+      "verdict": "PASS",
+      "fails": 0,
+      "warns": 0,
+      "note": ""
+    },
+    {
+      "figure": "fig_v6_source_cohort",
+      "verdict": "UNVERIFIED",
+      "fails": 3,
+      "warns": 4,
+      "note": "Historical author-approved Figure 1 asset retains intentional node-border text geometry; strict collision findings remain open."
+    }
+  ],
+  "strict_audit_note": "All newly generated and layout-repaired figures pass; the retained author-approved framework asset has three intentional text-stroke findings requiring author/layout decision before submission."
+}

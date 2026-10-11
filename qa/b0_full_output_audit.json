@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "scenario_count": 504,
+  "B0_cell_scenario_rows": 30564,
+  "infeasible_B0_rows": 0,
+  "cell_action_field_changes": {
+    "planned_cycle": 11892,
+    "effective_cycle": 1704,
+    "maintenance_in_window": 10188
+  },
+  "output_differences": {
+    "replacement_metrics.csv": {
+      "records": 8064,
+      "changed_records": 196,
+      "material_field_changes": 468,
+      "non_B0_material_changes": 0
+    },
+    "selection_results.csv": {
+      "records": 1512,
+      "changed_records": 0,
+      "material_field_changes": 0,
+      "non_B0_material_changes": 0
+    },
+    "replacement_pairwise_bootstrap.csv": {
+      "records": 15504,
+      "changed_records": 240,
+      "material_field_changes": 960,
+      "non_B0_material_changes": 0
+    },
+    "selection_disagreements.csv": {
+      "records": 1512,
+      "changed_records": 0,
+      "material_field_changes": 0,
+      "non_B0_material_changes": 0
+    }
+  },
+  "bootstrap_fresh_replay_matches": true,
+  "figure9_displayed_60_values_unchanged": true,
+  "inputs": {
+    "eda\\rebuild_v6_2\\04_run_replacement.py": "134bcb36fa2ee5721127511a6d7015c56d59d75501b55f5d9c68ec4ac248d86e",
+    "eda\\rebuild_v6_2\\replacement_metrics.csv": "1a7d6a9d40d7984306853b3322734fe0bbac4213e6a450116d7dcfd03392ae9d",
+    "eda\\rebuild_v6_2\\replacement_actions.csv": "a5b18e334be2b48abdb4bef24d54d853edb0c74b080701a9d1a744a9385c5feb",
+    "eda\\rebuild_v6_2\\replacement_pairwise_bootstrap.csv": "e72080f6e1917152c61eab9f07eca6930262f74841485510f56212e6dfda46af"
+  }
+}
