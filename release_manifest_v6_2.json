@@ -2,7 +2,7 @@
   "manifest_version": "v6.2-authoritative-20261011",
   "release_id": "AppliedEnergy-v6.2-20261010",
   "status": "PASS",
-  "entry_count": 133,
+  "entry_count": 132,
   "entries": [
     {
       "path": "code/03_run_benchmark.py",
@@ -368,11 +368,6 @@
       "path": "figures_v6/fig_v6_source_cohort.pdf",
       "bytes": 149451,
       "sha256": "4d47d468dc7ce12a41dad285f883bf78d6e8dd38342cae1e40a63648eb41bfcc"
-    },
-    {
-      "path": "figures_v6/fig_v6_source_cohort.preview.png",
-      "bytes": 398240,
-      "sha256": "cbf329390eebacc80b9abcf24d2ea327ac4d820f943b42393ff8c16d00097163"
     },
     {
       "path": "figures_v6_2/fig_v6_2_b0_repair.pdf",

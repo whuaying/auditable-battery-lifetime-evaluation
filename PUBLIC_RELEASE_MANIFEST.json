@@ -402,7 +402,7 @@
     {
       "path": "package_validation.json",
       "bytes": 682,
-      "sha256": "e06ec0f220f9e96237ed3379cde9a5f9bf23142ad14e49cd0f80178d2efc2d67"
+      "sha256": "365f3e0d394af8a1b9c55434914a01d3c95629af43a4fb99711c1baee8520965"
     },
     {
       "path": "qa/b0_full_output_audit.json",
@@ -591,8 +591,8 @@
     },
     {
       "path": "release_manifest_v6_2.json",
-      "bytes": 24279,
-      "sha256": "d2f19a343bbff11dd67505df5a5128bee16e08c5a284a5bd8e6b6286ea07b0f9"
+      "bytes": 24094,
+      "sha256": "9f0c1b207623e3ea8389364e21bdbb24316f21338b76cfc8db6f3eaaf870ce2b"
     },
     {
       "path": "RELEASE_README.md",
